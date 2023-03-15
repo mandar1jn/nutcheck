@@ -17,8 +17,14 @@ git commit
 ```
 
 ## Updating
+To update the nutcheck submodule version in your repository to the latest available:
 ```
 git submodule update --remote nutcheck
 git add nutcheck
 git commit
+```
+
+To update your local submodule clone to the version specified in your repository:
+```
+git submodule update nutcheck
 ```
