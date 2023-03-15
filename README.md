@@ -1,4 +1,4 @@
-# Cocotest
+# NutCheck
 
 Expanded test framework for CiviC compiler
 
@@ -6,19 +6,19 @@ Expanded test framework for CiviC compiler
 
 Run in project root:
 ```
-git submodule add https://github.com/Derkades/cocotest.git
-git add cocotest
+git submodule add https://github.com/Derkades/nutcheck.git
+git add nutcheck
 git commit
 ```
 
 ## Usage
 ```
-./cocotest/test.sh
+./nutcheck/test.sh
 ```
 
 ## Updating
 ```
-git submodule update --remote cocotest
-git add cocotest
+git submodule update --remote nutcheck
+git add nutcheck
 git commit
 ```
