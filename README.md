@@ -30,3 +30,7 @@ git submodule update --remote nutcheck
 git add nutcheck
 git commit
 ```
+
+## Contributing
+
+Please contribute your own tests! You can ask for write access to the repository, or create a pull request.
