@@ -13,4 +13,6 @@ export int main() {
     b = a[0.0, 0];
     b = a[0, 0.0];
     b = a[0, 0, 0];
+
+    return 5;
 }
