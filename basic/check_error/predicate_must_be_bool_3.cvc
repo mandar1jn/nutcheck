@@ -1,5 +1,5 @@
 void test() {
-    if () {
+    if (true) {
 
     } else if (1) {
 
