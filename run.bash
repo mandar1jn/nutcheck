@@ -116,7 +116,9 @@ function check_return {
     total_tests=$((total_tests+1))
     printf "%-${ALIGN}s " $file:
 
-    if $CIVCC $CFLAGS $file -o tmp.s > tmp.out 2>&1
+    $CIVCC $CFLAGS $file -o tmp.s > tmp.out 2>&1
+    exit_code=$?
+    if [ $exit_code -ne 1 ]
     then
         if [ $expect_failure -eq 1 ]; then
             echo_failed

@@ -1,6 +1,9 @@
 # NutCheck
 
-Expanded test framework for CiviC compiler
+Improved test framework for CiviC compiler:
+
+* Requires specifically exit code 1 for `check_error` tests. In the original framework, a compiler would also pass check_error if it crashed (e.g. because of a segmentation fault or assertion failure).
+* Added more tests
 
 ## Installation
 
