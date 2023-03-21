@@ -6,3 +6,4 @@ CIVICC="../build-debug/civicc"
 ./run.bash "$CIVICC" basic 2>/dev/null
 ./run.bash "$CIVICC" arrays 2>/dev/null
 ./run.bash "$CIVICC" nested_funs 2>/dev/null
+./run.bash "$CIVICC" cocosnoot 2>/dev/null
