@@ -1,6 +1,6 @@
 void f() {
     int a = 1;
-    int b[2, 2] = 2;
+    int[2, 2] b = 2;
 
     a = a + b;
 }
