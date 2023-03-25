@@ -34,6 +34,10 @@ git add nutcheck
 git commit
 ```
 
+## Credits
+ - Many tests and the `run.bash` script were taken from the test framework on Canvas
+ - Tests in the `cocosnoot` directory were taken from [stephenswat/cocosnoot](https://github.com/stephenswat/cocosnoot)
+
 ## Contributing
 
 Please contribute your own tests! You can ask for write access to the repository, or create a pull request.
