@@ -153,15 +153,15 @@ function run_dir {
         check_return $f 1
     done
 
-    # if [ $RUN_FUNCTIONAL -eq 1 ]; then
-    #     for f in $BASE/functional/*.cvc; do
-    #         check_output $f
-    #     done
+    if [ $RUN_FUNCTIONAL -eq 1 ]; then
+        for f in $BASE/functional/*.cvc; do
+            check_output $f
+        done
 
-    #     for d in $BASE/combined_*; do
-    #         check_combined $d
-    #     done
-    # fi
+        for d in $BASE/combined_*; do
+            check_combined $d
+        done
+    fi
 
     echo
 }

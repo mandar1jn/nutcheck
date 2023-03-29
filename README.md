@@ -21,6 +21,9 @@ On other machines, the `nutcheck` directory will be created, but it will be empt
 git submodule update --init nutcheck
 ```
 
+### Toolchain
+To run functional tests, add the `civas` and `civvm` executables to a new `toolchain` directory in your project directory.
+
 ## Usage
 ```
 ./nutcheck/test.sh
