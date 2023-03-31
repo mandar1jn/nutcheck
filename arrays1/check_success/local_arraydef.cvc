@@ -3,5 +3,5 @@ void func()
 {
     int[10] i;
     bool[0] j;
-    float[0] j;
+    float[0] k;
 }
