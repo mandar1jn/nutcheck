@@ -1,0 +1,20 @@
+// Should produce a type checking error because funcalls also have a type.
+
+extern void printInt(int val);
+extern void printFloat(float val);
+
+extern int scanInt();
+extern float scanFloat();
+
+extern void printSpaces(int num);
+extern void printNewlines(int num);
+
+float kaas() {
+    return 6.0;
+}
+
+export int main() {
+    int a = 0;
+    a = a + kaas();
+    return 0;
+}

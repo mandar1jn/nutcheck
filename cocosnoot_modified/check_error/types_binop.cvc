@@ -1,0 +1,18 @@
+// Should produce a type checking error because binop types should match.
+
+extern void printInt(int val);
+extern void printFloat(float val);
+
+extern int scanInt();
+extern float scanFloat();
+
+extern void printSpaces(int num);
+extern void printNewlines(int num);
+
+export int main() {
+    int a = 5;
+    if (6.0 > a) {
+        a = 6;
+    }
+    return 0;
+}

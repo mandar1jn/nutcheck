@@ -1,0 +1,15 @@
+// Should produce a type checking error 0 is an int literal, not a float.
+
+extern void printInt(int val);
+extern void printFloat(float val);
+
+extern int scanInt();
+extern float scanFloat();
+
+extern void printSpaces(int num);
+extern void printNewlines(int num);
+
+export int main() {
+    float a = 0;
+    return 0;
+}

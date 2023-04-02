@@ -1,0 +1,15 @@
+// Should produce a parser error because the integer is too big.
+
+extern void printInt(int val);
+extern void printFloat(float val);
+
+extern int scanInt();
+extern float scanFloat();
+
+extern void printSpaces(int num);
+extern void printNewlines(int num);
+
+export int main() {
+    int a = 10000000000000000000;
+    return 0;
+}

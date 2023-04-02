@@ -9,4 +9,5 @@ export CIVVM="../toolchain/civvm"
 ./run.bash "$CIVICC" nested_funs 2>/dev/null
 ./run.bash "$CIVICC" arrays1 2>/dev/null
 ./run.bash "$CIVICC" arrays2 2>/dev/null
-./run.bash "$CIVICC" cocosnoot 2>/dev/null
+./run.bash "$CIVICC" cocosnoot_modified 2>/dev/null
+# ./run.bash "$CIVICC" cocosnoot_original 2>/dev/null # For testing a preprocessor
