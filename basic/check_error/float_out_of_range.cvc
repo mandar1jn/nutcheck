@@ -1,0 +1,9 @@
+float i = 9999999999999999999999999999999999999999999999999999999999999999.0;
+
+extern void printFloat(float i);
+
+export int main()
+{
+  printFloat(i);
+  return 0;
+}
