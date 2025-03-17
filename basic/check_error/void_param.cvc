@@ -1,3 +1,8 @@
 int foo(void a) {
     return 1;
 }
+
+int bar(int f, void g)
+{
+    return 2;
+}
